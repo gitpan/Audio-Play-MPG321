@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Audio-Play-MPG321.t
+lib/Audio/Play/MPG321.pm
+META.yml                                 Module meta-data (added by MakeMaker)

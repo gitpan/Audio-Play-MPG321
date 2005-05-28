@@ -1,0 +1,7 @@
+Audio-Play-MPG321 version 0.01
+==============================
+
+Audio::Play::MPG321 is a frontend to MPG321. You will, of course, need the
+mpg321 player and all of its dependencies correctly installed. See the POD
+within the module for more information. Please report bugs to
+scarlino@bellsouth.net
