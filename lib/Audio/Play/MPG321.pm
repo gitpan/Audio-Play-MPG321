@@ -11,7 +11,7 @@ use warnings;
 use IPC::Open2;
 use IO::Select;
 use 5.006;
-our $VERSION = 0.001;
+our $VERSION = 0.002;
 
 sub new {
  my $class = shift;
@@ -135,13 +135,6 @@ will have to do some extra work outside of the module, as demonstrated in the
 synopsis. If you want to build a basic queue (Play one song, then play
 another), then you must keep calling poll() to make sure Audio::Play::MPG321
 knows how MPG321 is doing and testing state() to be 0.
-
-The standard MPG321 player could be used, though some minor modifications would
-have to be made to parse(). When I wrote this module, to simplify things, I
-modified MPG321 to produce only certain types of output. It is recommended that
-you build the module from the source included in the distribution or use a
-binary provided. The modifications I made are not enhancements, nor bug fixes,
-they merely made it easier for me to write this module.
 
 =head2 METHODS
 

@@ -1,6 +1,11 @@
 Revision history for Perl extension Audio::Play::MPG321.
 
-0.01  Fri May 27 15:38:48 2005
-	- original version; created by h2xs 1.23 with options
-		-AX -n Audio::Play::MPG321
+0.001  Fri May 27 15:38:48 2005
+	- The original version; seems to be pretty stable.
 
+0.002  Sat May 28 11:55::05 2005
+	- I forgot to take the bit out of the documentation that said a
+	  non-standard MPG321 player is needed; I fixed the module so the
+	  standard can be used. The example in the synopsis should work fine
+	  (And therefore the entire module, in theory) provided you change the
+	  two filenames to real MP3s.
