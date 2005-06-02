@@ -11,7 +11,7 @@ use warnings;
 use IPC::Open2;
 use IO::Select;
 use 5.006;
-our $VERSION = 0.002;
+our $VERSION = 0.003;
 
 sub new {
  my $class = shift;
@@ -84,7 +84,6 @@ sub resume {
 }
 
 sub seek {
- print join "\n", @_;
  my $self = shift;
  my $direction = shift;
  my $position = shift;
@@ -197,5 +196,9 @@ line, a signal handler for CHLD must be defined to reap the zombie.
 =head1 AUTHOR
 
 Da-Breegster <scarlino@bellsouth.net>
+
+=head1 SEE ALSO
+
+L<mpg321(1)>
 
 =cut

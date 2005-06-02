@@ -9,3 +9,9 @@ Revision history for Perl extension Audio::Play::MPG321.
 	  standard can be used. The example in the synopsis should work fine
 	  (And therefore the entire module, in theory) provided you change the
 	  two filenames to real MP3s.
+
+0.003  Wed June 01 10:09:30 2005
+	- I took out a statement in seek() that printed the arguments it received.
+	  I had put it there for debugging purposes. I also added some better
+	  instructions for use in the README. I now consider this module to be
+	  stable.

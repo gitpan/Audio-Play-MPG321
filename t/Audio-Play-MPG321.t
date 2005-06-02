@@ -13,4 +13,3 @@ BEGIN { use_ok('Audio::Play::MPG321') };
 # Insert your test code below, the Test::More module is use()ed here so read
 # its man page ( perldoc Test::More ) for help writing this test script.
 
-# I'll put in test later. Am I doing good so far?

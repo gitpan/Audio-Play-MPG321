@@ -1,7 +1,39 @@
-Audio-Play-MPG321 version 0.01
-==============================
+Audio-Play-MPG321 version 0.003
+===============================
 
-Audio::Play::MPG321 is a frontend to MPG321. You will, of course, need the
-mpg321 player and all of its dependencies correctly installed. See the POD
-within the module for more information. Please report bugs to
-scarlino@bellsouth.net
+Audio::Play::MPG321 is an interface to the MPG321 MP3 player. You will need
+mpg321 (version 0.2.10 or beyond is recommended.) and of course a *nix
+platform, since to my knowledge mpg321 doesn't have many ports on non-*nix
+platforms.
+
+You may want to check out Audio::Daemon::MPG321, which slaps a song queue
+around A::P::M. If it's not on a CPAN mirror near you yet, it will be soon.
+
+Please read the POD documentation contained within the module and send fixes,
+comments, and suggestions to <scarlino@bellsouth.net>. Have fun!
+
+INSTALLATION
+
+To install this module, type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+(But you really shouldn't have to if you had any sense and were using an
+automated CPAN tool for installation.)
+
+DEPENDENCIES
+
+  Audio::Play::MPG321 requires the MPG321 player. This module is tested on
+  version 0.2.10, but earlier or later versions should work.
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2005 by Da-Breegster
+
+This module is Free software under the GNU GPL license, version 2. Redistribute 
+it, modify it in any way you like, and please send patches, comments,
+improvements, and flames to <scarlino@bellsouth.net>. MPG321, which this module
+relies on, is also free software under the GNU GPL, version 2 or later.
