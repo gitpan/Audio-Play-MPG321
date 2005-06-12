@@ -6,5 +6,5 @@ WriteMakefile(
     PREREQ_PM         => {IPC::Open2 => 1.01, IO::Select => 1.16},
     ($] >= 5.005 ?
       (ABSTRACT  => "Audio::Play::MPG321",
-       AUTHOR         => 'Da-Breegster <scarlino@bellsouth.net>') : ()),
+       AUTHOR         => 'Da-Breegster <dabreegster@gmail.com>') : ()),
 );

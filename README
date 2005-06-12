@@ -10,7 +10,7 @@ You may want to check out Audio::Daemon::MPG321, which slaps a song queue
 around A::P::M. If it's not on a CPAN mirror near you yet, it will be soon.
 
 Please read the POD documentation contained within the module and send fixes,
-comments, and suggestions to <scarlino@bellsouth.net>. Have fun!
+comments, and suggestions to <dabreegster@gmail.com>. Have fun!
 
 INSTALLATION
 
@@ -35,5 +35,5 @@ Copyright (C) 2005 by Da-Breegster
 
 This module is Free software under the GNU GPL license, version 2. Redistribute 
 it, modify it in any way you like, and please send patches, comments,
-improvements, and flames to <scarlino@bellsouth.net>. MPG321, which this module
+improvements, and flames to <dabreegster@gmail.com>. MPG321, which this module
 relies on, is also free software under the GNU GPL, version 2 or later.
